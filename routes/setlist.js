@@ -189,4 +189,3 @@ export default router;
 
 // Add way to make tell user the setlist is empty
 // Add way to include covers (and option in UI)
-// Editing comment
