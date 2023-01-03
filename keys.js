@@ -9,7 +9,7 @@ const client_id = '0d453f304c284edca80fef86ba63f57c';
 const client_secret = 'd4a0686ea42f418a92521bd7e884d221';
 
 // This sites redirect URI
-// const redirect_uri = 'http://127.0.0.1:8080/test.html';
-const redirect_uri = 'http://localhost:3000/';
+// const redirect_uri = 'http://localhost:3000/';
+const redirect_uri = 'https://spotlist.pages.dev/';
 
 export { sfmKey, spotifyKey, client_id, client_secret, redirect_uri };
