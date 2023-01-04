@@ -9,7 +9,7 @@ router.use(cors());
 
 const AUTHORIZE = 'https://accounts.spotify.com/authorize';
 
-// Middleware to add all setlist tracks to created playlist
+// Middleware to create an authorization link for Spotify accounts
 const sendAuthLink = function(req, res, next) {
   try {
     const clientQ = '?client_id=' + client_id;
