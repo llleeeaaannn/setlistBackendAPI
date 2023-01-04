@@ -1,6 +1,7 @@
-#Spotlist Backend API
+##Spotlist Backend API
 
-This Express server is the backend of the Spotlist application.
+This Express server is the backend of the Spotlist application. The application can be found at: [Spotlist.me](https://www.spotlist.net/) and the frontend repository can be found on
+
 It enables the client to:
 • Authorise a users Spotify account.
 • Create a retrieve data from a setlist.fm setlist.
