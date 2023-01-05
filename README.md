@@ -2,16 +2,6 @@
 > An Express.js Backend API for the Spotlist web application.
 > You can find the application at [Spotlist.net](https://www.spotlist.net)
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Usage](#usage)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-
 
 ## General Information
 - Spotlist is an Offline-First Progressive Web Application which transforms concert setlists into Spotify Playlists.
