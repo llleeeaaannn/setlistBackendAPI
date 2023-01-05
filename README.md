@@ -12,8 +12,8 @@
 
 ## Technologies Used
 - Node.js
-- Javascript
 - Express.js
+- Javascript
 
 
 ## Contact
