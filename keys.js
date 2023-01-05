@@ -9,4 +9,4 @@ const client_secret = 'd4a0686ea42f418a92521bd7e884d221';
 // const redirect_uri = 'http://localhost:3000/';
 const redirect_uri = 'https://spotlist.pages.dev/';
 
-export { sfmKey, spotifyKey, client_id, client_secret, redirect_uri };
+export { sfmKey, client_id, client_secret, redirect_uri };
