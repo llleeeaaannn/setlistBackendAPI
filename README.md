@@ -1,6 +1,6 @@
 # Spotlist API
 > An Express.js Backend API for the Spotlist web application.
-> You can find the application at [Spotlist.net](https://www.spotlist.net) and the repoistory [here.](https://github.com/llleeeaaannn/spotlist)
+> You can find the application at [Spotlist.net](https://www.spotlist.net) and the repository [here.](https://github.com/llleeeaaannn/spotlist)
 
 
 ## General Information
