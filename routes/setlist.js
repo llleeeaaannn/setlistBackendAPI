@@ -1,6 +1,6 @@
 import express from 'express';
 import fetch from 'node-fetch';
-import { sfmKey, spotifyKey } from '../keys.js';
+import { sfmKey } from '../keys.js';
 import { encodeQuery, formatDate, createPlaylistName, createPlaylistDescription, songToIDs, songToIDsWithArtistFilter, getUnfoundSongs, trimString } from '../methods.js';
 
 const router = express.Router();
@@ -13,11 +13,6 @@ const USERSAPI = 'https://api.spotify.com/v1/users/';
 const MEAPI = 'https://api.spotify.com/v1/me';
 
 const DATEFORMAT = "do 'of' LLLL yyyy";
-
-const bhSetlist = '7388264d';
-const ariesSetlist = '3bf8d33';
-const the1975Setlist = '4bbf3316';
-const emptySetlist = '33bf0069';
 
 // Middleware to GET setlist from setlist.fm based on setlist ID
 const getSetlist = async function(req, res, next) {
