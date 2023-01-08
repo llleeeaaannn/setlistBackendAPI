@@ -15,7 +15,7 @@ const sendAuthLink = function(req, res, next) {
     const clientQ = '?client_id=' + client_id;
     const responseQ = '&response_type=code';
     const redirectQ = '&redirect_uri=' + encodeURI(redirect_uri);
-    const dialogQ = '&show_dialog=true';
+    const dialogQ = '&show_dialog=false';
     const scopeQ = '&scope=user-read-private user-read-private playlist-modify-private playlist-modify-public';
     const url = AUTHORIZE + clientQ + responseQ + redirectQ + dialogQ + scopeQ;
     const link = {
